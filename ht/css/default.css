@@ -1,0 +1,77 @@
+#contentHolder{
+	width:100%;
+	background: transparent url(../images/logo.png) no-repeat 49% 40%;
+}
+#contentHolder.dev{
+	background:none !important;
+}
+#contentHolder #header li{
+	list-style:none;
+}
+#contentHolder #header ul#logo{
+	float:left;
+	margin:0;
+	padding:0;
+}
+#contentHolder ul.navigation{
+	width:50%;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	float:left;
+}
+#contentHolder ul.copyright{
+	width:40%;
+	margin:0;
+	padding:0; 
+	overflow: hidden;
+	float:right;
+}
+#contentHolder #header ul.navigation{
+	float:right;
+}
+#contentHolder #header ul.navigation li{
+	float:right;
+	margin-left:20px;
+}
+#contentHolder #footer,
+#contentHolder #header{
+	overflow:hidden;
+	margin-left:25px;
+	margin-right:25px;
+}
+#contentHolder #footer ul.navigation li{
+	list-style:none;
+	float:left;
+	margin:0;
+	margin-right:20px;
+}
+#contentHolder #footer ul.copyright li{
+	list-style:none;
+	float:right;
+	margin:0;
+	margin-left:10px;
+}
+#contentHolder ul.navigation li a,
+#contentHolder ul.navigation li a:visited,
+#contentHolder ul.navigation li a:link{
+	color:#3333ff;
+	text-decoration:none;
+}
+#contentHolder #footer ul.copyright li a,
+#contentHolder #footer ul.copyright li a:visited,
+#contentHolder #footer ul.copyright li a:link{
+	color:#444;
+	text-decoration:none;
+}
+#contentHolder ul.navigation li a:hover{
+	text-decoration:underline;
+}
+#contentHolder #content{
+	width:100%;
+	min-height:800px;
+	overflow: hidden;
+}
+#contentHolder .submitBtn{
+	float:right;
+}

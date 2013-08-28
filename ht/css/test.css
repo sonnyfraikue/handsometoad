@@ -1,0 +1,329 @@
+/* CSS Document */
+
+#style-insider						{ min-height: 588px; width: 994px; margin: 18px auto 0 auto; clear: both; position: relative; *margin-top:-20px;}
+.style-insider-social-networking	{ clear: both; }
+#style-insider .vr					{ background-color: transparent; }
+#style-insider .social-networking	{ display: none; }
+.js-enabled #style-insider .social-networking	{ display: block; }
+
+/* COLUMNS AND ROWS 
+-----------------------------------------*/
+
+#style-insider .column
+{
+	float: left;
+}
+#style-insider .column img
+{
+	vertical-align: bottom;
+}
+#style-insider .column .hide-overflow
+{
+	overflow: hidden;
+}
+
+#style-insider #col-1
+{
+	width: 253px;
+}
+
+#style-insider #col-2
+{
+	width: 469px;
+	margin: 0 8px;
+}
+
+#style-insider #col-3
+{
+	width: 255px;
+}
+
+#style-insider .slidey-cta-box
+{
+	position: relative;
+	overflow: hidden;
+	-webkit-box-shadow: #555 0px 0px 0px; 
+    -moz-box-shadow: #555 0px 0px 0px; 
+    box-shadow: #555 0px 0px 0px;
+	margin-bottom: 8px;
+}
+#style-insider .row
+{
+	margin-bottom: 8px;
+}
+#style-insider .shadow-box
+{
+	-webkit-box-shadow: #555 3px 3px 4px; 
+    -moz-box-shadow: #555 3px 3px 4px; 
+    box-shadow: #555 3px 3px 4px;
+}
+
+#style-insider .slidey-cta-box .cta-slide
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display:none;
+}
+#style-insider.debug .slidey-cta-box .cta-slide,
+#style-insider .slidey-cta-box:hover .cta-slide
+{
+	display: block;
+}
+/* CHANGE OPACITY TO 1 TO MAKE MAP
+--------------------------------------*/
+.js-enabled #style-insider .slidey-cta-box:hover .cta-slide
+{
+	display: none;
+}
+#style-insider .slidey-cta-box .cta-slide .underlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	filter: alpha(opacity=85);
+	opacity: .85;
+}
+#style-insider .slidey-cta-box .cta-slide img,
+#style-insider .slidey-cta-box .cta-slide .cta-container
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#style-insider .slidey-cta-box .cta-slide .cta-container
+{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+#style-insider .slidey-cta-box .cta-slide .cta-container p
+{
+	padding: 300px 50px 2em 50px;
+}
+#style-insider .slidey-cta-box .cta-slide .cta-container a
+{
+	color: #000;
+	text-decoration: none;
+}
+
+#style-insider #box-1-1
+{
+	background: url('http://riverisland.scene7.com/is/image/RiverIsland/c20131505_TopLeft?$JPG%20No%20Scale$&scl=1') no-repeat 0 0;
+	height: 337px;
+}
+
+#style-insider #box-1-2
+{
+	background: url('http://riverisland.scene7.com/is/image/RiverIsland/c20131505_Middle_Left?$JPG%20No%20Scale$&scl=1') no-repeat 0 0;
+	height: 216px;
+}
+
+#style-insider #box-2-1
+{
+	background: url('http://riverisland.scene7.com/is/image/RiverIsland/c20131505_TopLeft_Middle?$JPG%20No%20Scale$&scl=1') no-repeat 0 0;
+	height: 337px;
+	margin-bottom: 8px;
+}
+
+#style-insider #box-2-2
+{
+	background: url('http://riverisland.scene7.com/is/image/RiverIsland/c20131505_Middle_1?$JPG%20No%20Scale$&scl=1') no-repeat 0 0;
+	width: 228px;
+	height: 216px;
+}
+
+#style-insider #box-2-3
+{
+	background: url('http://riverisland.scene7.com/is/image/RiverIsland/c20131505_Middle_2?$JPG%20No%20Scale$&scl=1') no-repeat 0 0;
+	width: 233px;
+	height: 216px;
+}
+
+#style-insider #box-2-4
+{
+	background: url('http://riverisland.scene7.com/is/image/RiverIsland/c20131405_styleinsidermagazine_1?$JPG%20No%20Scale$&scl=1') no-repeat 0 0;
+	width: 232px;
+	height: 219px;
+}
+
+#style-insider #box-2-5
+{
+	background: url('http://riverisland.scene7.com/is/image/RiverIsland/c20131405_styleinsidermagazine_3?$JPG%20No%20Scale$&scl=1') no-repeat 0 0;
+	width: 232px;
+	height: 219px;
+}
+
+#style-insider #box-3-2
+{
+	background: url('http://riverisland.scene7.com/is/image/RiverIsland/20131405_LANDINGPAGE_GREATGATSBY2?$JPG%20No%20Scale$&scl=1') no-repeat 0 0;
+	height: 216px;
+}
+
+/* INSTAGRAM ONE
+---------------------------------------*/
+#style-insider #box-3-3
+{
+	background: url('http://riverisland.scene7.com/is/content/RiverIsland/20130508_instagram_update?$JPG%20No%20Scale$&scl=1') no-repeat 0 0;
+	height: 219px;
+}
+
+
+/* LANDING PAGE
+---------------------------------------------*/
+/*.landing-page .vr-1 { left: 264px; border-right: dotted 1px #6d6d6d; }
+.landing-page .vr-2 { right: 227px; border-left: dotted 1px #6d6d6d; }*/
+.landing-page #twitter-feed #hl-twitter-follow { display: none; }
+.landing-page #twitter-feed ul					{ color: #555; }
+.landing-page #twitter-feed li					{ border-bottom: solid 1px #d1d0d0; border-bottom: 1em; }
+.landing-page #twitter-feed li:last-child		{ border-bottom: none; display: none; }
+.landing-page #twitter-feed p.time-passed		{ font-weight: bold; position: relative; top: -.5em; margin-bottom: .75em; color: #000; }
+
+.landing-page .blog-post				{ float: none; }
+.landing-page .blog-post .blog-post-content img,
+.landing-page .blog-post .si-carousel,
+.landing-page .blog-post .si-carousel li.slide { width: 400px; }
+.landing-page .blog-post-content,
+.landing-page .blog-post-content p { text-align: center !important; }
+.landing-page .blog-post-content a { text-decoration: underline; }
+
+
+/* BLOG
+---------------------------------------------*/
+.blog .vr										{ border-right: dotted 1px #6d6d6d; right: 280px; }
+.blog-post										{ text-align: center; padding: 0 27px; padding-bottom: 1em; }
+.blog .blog-post								{ float: left; width: 657px; }
+#blog-listing									{ float: left; width: 712px; }
+.blog-post .date-posted							{ color: #494747; margin-top: 1em; }
+.blog-post h1,
+.blog-post h2.h1								{ font-family: Gotham Medium, gothammedium, Arial, Sans-Serif; font-size: 1.8em; text-transform: uppercase; margin-bottom: .5em; }
+.blog-post .blog-post-content img				{ margin: 0 auto; display: block; }
+.blog .blog-post .blog-post-content img,
+.blog .blog-post .si-carousel,
+.blog .blog-post .si-carousel li.slide { width: 650px; }
+.blog-post .blog-post-content p					{ text-align: left; }
+.blog .blog-post .blog-post-content a			{ text-decoration: underline !important; }
+
+.blog-sidebar									{ width: 246px; padding: 13px 17px; float: left; }
+.blog-sidebar .filter-nav						{ padding: 10px 0; margin: 5px 0 4px 0; border-top: solid 3px #000; border-bottom: solid 3px #000; }
+/* UNCOMMENT ONCE THE TWITTER FEED HAS BEEN MOVED
+BELOW ARCHIVE MENU IN NEXT DEPLOYMENT
+.blog-sidebar #years-nav { border-top: none !important; }
+*/
+.blog-sidebar .filter-nav h2					{ font-family: Arial, Sans-Serif; font-size: 1.2em; margin-bottom: .25em; font-weight: bold; text-transform: uppercase; }
+.blog-sidebar .filter-nav li					{ padding-left: 9px; background: url(/Assets/RiverIsland/core/images/list_bullet.png) no-repeat left center; }
+.blog-sidebar #years-nav.filter-nav li			{background:none;}
+.blog-sidebar #twitter-feed #hl-twitter-follow	{ display: block; width: 109px; height: 64px; text-indent: -9999em; background: url(/Assets/RiverIsland/core/images/style-insider/blog/twitter-follow.png) no-repeat 0 0; }
+.blog-sidebar #twitter-feed ul					{ margin-top: .25em; color: #555; }
+.blog-sidebar #twitter-feed li					{ border-bottom: solid 1px #d1d0d0; padding-top: 1.2em; }
+.blog-sidebar #twitter-feed p.time-passed		{ font-weight: bold; position: relative; top: -.5em; margin-bottom: .75em; color: #000; }
+
+#blog-listing #paginator						{ position: relative; font-size: 1.2em; height: 2em; clear: both; }
+#blog-listing #paginator a,
+#blog-listing #paginator span					{ position: absolute; font-weight: bold; top: .5em; }
+#blog-listing #paginator span					{ color: #888; }
+#blog-listing #hl-older							{ left: 25px; }
+#blog-listing #hl-newer							{ right: 25px; }
+
+
+/* GALLERY CAROUSEL
+----------------------------------------------*/
+.si-carousel,
+.infiniteCarousel { overflow: hidden; margin: 0 auto 19px auto !important; }
+.si-carousel ul { margin-bottom: 0; }
+.si-carousel li.slide { display: none; }
+.si-carousel li.first-slide { display: inline-block !important; *display: inline !important; }
+.js-enabled .si-carousel li.slide { display: inline-block !important; *display: inline !important; }
+.ic_thumbnail_tray { bottom: 5px !important; }
+.ic_button { display: inline-block; margin: 0 2px; height: 13px; width: 13px; background: transparent url(http://riverisland.scene7.com/is/image/RiverIsland/buttons?$PNG%20Alpha%20Transparency$&v=2) no-repeat 0 0; }
+.ic_button:hover { background: transparent url(http://riverisland.scene7.com/is/image/RiverIsland/buttons?$PNG%20Alpha%20Transparency$&v=2) no-repeat 0 -13px !important; }
+.ic_active { background-position: 0 -13px !important; }
+.ic_left_nav,
+.ic_right_nav { width: 32px; height: 32px; }
+.ic_left_nav img,
+.ic_right_nav img { filter: alpha(opacity=0); opacity: 0; width: 32px !important; height: 32px; }
+.ic_left_nav { background: url(http://riverisland.scene7.com/is/image/RiverIsland/left?$PNG%20Alpha%20Transparency$); }
+.ic_right_nav { background: url(http://riverisland.scene7.com/is/image/RiverIsland/right?$PNG%20Alpha%20Transparency$); }
+
+
+/* COMPETITIONS
+----------------------------------------------*/
+#competition-details					{ float: left; width: 361px; }
+#competition-details .text-section		{ padding: 8px 12px; }
+#competition-details h1					{ font-size: 1.3em; margin-bottom: .5em; }
+
+#competition-details p,
+#competition-form p						{ font-size: .9em; }
+
+#competition-form						{ width: 630px; border-left: dotted 1px #6d6d6d;  }
+#competition-form,
+#competition-form .col-1,
+#competition-form .col-2				{ float: left; }
+
+#competition-form label					{ font-weight: bold; font-size: .9em; }
+
+
+#competition-form .col-1						{ width: 241px; padding: 18px 35px 18px 25px; }
+#competition-form .col-1 label,
+#competition-form .col-1 span.req-field-label,
+#competition-form input.text,
+#competition-form select						{ display: block; float: none; }
+#competition-form .col-1 span.req-field-label label { display: inline-block; }
+#competition-form label span span				{ color: #000; font-size: .8em; }
+#competition-form label							{ margin-bottom: 4px; }
+#competition-form input.text,
+#competition-form textarea,
+#competition-form select#country				{ width: 231px !important; max-width: 231px !important; }
+#competition-form input#PostalCode				{ width: 100px !important; }
+#competition-form input.text,
+#competition-form select						{ margin-bottom: 2px; }
+#competition-form select.ddl-dob				{ margin-right: 4px; float: left; }
+#competition-form .cbx							{ position: relative; top: 2px; }
+#competition-form #captcha-field img			{ display: block; margin-bottom: .5em; margin-top: 1.5em; }
+#competition-form #captcha						{ width: 150px; }
+#competition-form input#spam					{ margin-bottom: 0; }
+#competition-form #btn-reload-captcha			{ font-size: .8em; background: none; }
+#competition-form #btn-reload-captcha:hover		{ color: #888; }
+#competition-form .submit						{ text-align: left; }
+#competition-form .submit button				{ margin-top: 2em; }
+
+.field-l										{ margin-bottom: 1em; }
+.field-validation-error							{ padding-left: 0; }
+.validation-summary-errors						{ margin: 18px 23px 0 23px; }
+.validation-summary-errors ul					{ margin-bottom: 0; }
+
+#competition-form .col-2						{ width: 304px; padding: 18px 25px 18px 0; }
+#competition-form .col-2 h2						{ font-family: Arial, Sans-Serif; font-weight: bold; margin-bottom: .5em; }
+#competition-form .col-2 p,
+#competition-form .col-2 label					{ display: inline-block; margin-bottom: .5em; margin-right: 0; }
+#competition-form .col-2 #pnl-newsletter-prefs			{ padding-left: 1px; }
+#competition-form .col-2 #pnl-newsletter-prefs label { margin-right: 18px; }
+#competition-form .col-2 #pnl-terms-acceptance-fields .field-validation-error { width: auto; margin-top: -.25em; }
+#competition-form .terms-section				{ color: #555; height: 200px; padding: 13px; overflow: auto; border: solid 1px #888; margin-bottom: 1.7em; }
+#competition-form .terms-section strong			{ color: #000; }
+#competition-form .col-2 a						{ text-decoration: underline; }
+
+#competition-form .h-div						{ height: 3px; background-color: #000; clear: both; margin-top: 1.1em; margin-bottom: 1.6em; }
+
+.comments-container { margin-top:30px }
+#style-insider .pinterest { position:relative; display:inline; top:-2px; }
+
+#recently-viewed { float:left; }
+
+#instagram img.loading { margin-top:80px; } 
+.slideshow { position: relative; float: left; width: 230px; height: 230px; margin-bottom:10px; overflow:hidden }
+.slideshow a { position: absolute; display: block; left: 0; top: 0; width: 230px; }
+.slideshow img { display:block; width: 100%; height:100%;}
+
+#instagram,
+li.rss-error { display:none }
+
+.blog-post .fb-like { top:-3px }
+
