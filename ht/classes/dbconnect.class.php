@@ -1,7 +1,7 @@
 <?php
 //WRITTEN 14/09/06 REVISED	02/12/07
 class db {
- var $host = 'handsometoad.db.10398159.hostedresource.com';
+ var $host = 'localhost';
  var $port;
  var $username = 'handsometoad';
  var $password = 'Mypsychowife1#';
@@ -15,7 +15,7 @@ class db {
  function db($debug = false) {
   global $config;
   if ($debug) {$this->debug = true;}
-  $this->host = !empty($config['db']['host']) ? $config['db']['host'] : 'handsometoad.db.10398159.hostedresource.com';
+  $this->host = !empty($config['db']['host']) ? $config['db']['host'] : 'localhost';
   $this->port = !empty($config['db']['port']) ? $config['db']['port'] : '';
   $this->username = !empty($config['db']['username']) ? $config['db']['username'] : 'handsometoad';
   $this->password = !empty($config['db']['password']) ? $config['db']['password'] : 'Mypsychowife1#';
