@@ -1,5 +1,5 @@
 <?php 
-/*test
+/*
  * USERS BROWSE TEMPLATES TO CUSTOMISE
  */
 require_once 'classes/dbconnect.class.php';
